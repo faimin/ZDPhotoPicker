@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC1349021C6093E200BEB91D /* ZDAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1348F91C6093E200BEB91D /* ZDAssetCell.m */; };
+		BC1349031C6093E200BEB91D /* ZDAssetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1348FA1C6093E200BEB91D /* ZDAssetCell.xib */; };
+		BC1349041C6093E200BEB91D /* ZDAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1348FC1C6093E200BEB91D /* ZDAssetModel.m */; };
+		BC1349051C6093E200BEB91D /* ZDPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1348FF1C6093E200BEB91D /* ZDPhotoManager.m */; };
+		BC13490B1C60946800BEB91D /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1349081C60946800BEB91D /* UIView+AutoLayout.m */; };
+		BC13490C1C60946800BEB91D /* UIView+RZAutoLayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BC13490A1C60946800BEB91D /* UIView+RZAutoLayoutHelpers.m */; };
 		BC167DB31C586B7800CF82F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DB21C586B7800CF82F1 /* main.m */; };
 		BC167DB61C586B7800CF82F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DB51C586B7800CF82F1 /* AppDelegate.m */; };
 		BC167DB91C586B7800CF82F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DB81C586B7800CF82F1 /* ViewController.m */; };
@@ -15,12 +21,6 @@
 		BC167DC11C586B7800CF82F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC167DBF1C586B7800CF82F1 /* LaunchScreen.storyboard */; };
 		BC167DCC1C586B7800CF82F1 /* ZDPhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DCB1C586B7800CF82F1 /* ZDPhotoPickerTests.m */; };
 		BC167DD71C586B7800CF82F1 /* ZDPhotoPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DD61C586B7800CF82F1 /* ZDPhotoPickerUITests.m */; };
-		BC167DE71C586BE100CF82F1 /* ZDPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DE61C586BE100CF82F1 /* ZDPhotoManager.m */; };
-		BC167DF31C58756900CF82F1 /* ZDAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DF21C58756900CF82F1 /* ZDAssetModel.m */; };
-		BC167DF71C5875CF00CF82F1 /* ZDAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DF51C5875CF00CF82F1 /* ZDAssetCell.m */; };
-		BC167DF81C5875CF00CF82F1 /* ZDAssetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC167DF61C5875CF00CF82F1 /* ZDAssetCell.xib */; };
-		BC167DFB1C58766100CF82F1 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DFA1C58766100CF82F1 /* UIView+AutoLayout.m */; };
-		BC167DFE1C58766C00CF82F1 /* UIView+RZAutoLayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BC167DFD1C58766C00CF82F1 /* UIView+RZAutoLayoutHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC1348F81C6093E200BEB91D /* ZDAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDAssetCell.h; sourceTree = "<group>"; };
+		BC1348F91C6093E200BEB91D /* ZDAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDAssetCell.m; sourceTree = "<group>"; };
+		BC1348FA1C6093E200BEB91D /* ZDAssetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDAssetCell.xib; sourceTree = "<group>"; };
+		BC1348FB1C6093E200BEB91D /* ZDAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDAssetModel.h; sourceTree = "<group>"; };
+		BC1348FC1C6093E200BEB91D /* ZDAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDAssetModel.m; sourceTree = "<group>"; };
+		BC1348FD1C6093E200BEB91D /* ZDDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDefines.h; sourceTree = "<group>"; };
+		BC1348FE1C6093E200BEB91D /* ZDPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPhotoManager.h; sourceTree = "<group>"; };
+		BC1348FF1C6093E200BEB91D /* ZDPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPhotoManager.m; sourceTree = "<group>"; };
+		BC1349071C60946800BEB91D /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		BC1349081C60946800BEB91D /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		BC1349091C60946800BEB91D /* UIView+RZAutoLayoutHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RZAutoLayoutHelpers.h"; sourceTree = "<group>"; };
+		BC13490A1C60946800BEB91D /* UIView+RZAutoLayoutHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RZAutoLayoutHelpers.m"; sourceTree = "<group>"; };
 		BC167DAE1C586B7800CF82F1 /* ZDPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC167DB21C586B7800CF82F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC167DB41C586B7800CF82F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,18 +69,6 @@
 		BC167DD21C586B7800CF82F1 /* ZDPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC167DD61C586B7800CF82F1 /* ZDPhotoPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPhotoPickerUITests.m; sourceTree = "<group>"; };
 		BC167DD81C586B7800CF82F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC167DE51C586BE100CF82F1 /* ZDPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPhotoManager.h; sourceTree = "<group>"; };
-		BC167DE61C586BE100CF82F1 /* ZDPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPhotoManager.m; sourceTree = "<group>"; };
-		BC167DF11C58756900CF82F1 /* ZDAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDAssetModel.h; sourceTree = "<group>"; };
-		BC167DF21C58756900CF82F1 /* ZDAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDAssetModel.m; sourceTree = "<group>"; };
-		BC167DF41C5875CF00CF82F1 /* ZDAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDAssetCell.h; sourceTree = "<group>"; };
-		BC167DF51C5875CF00CF82F1 /* ZDAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDAssetCell.m; sourceTree = "<group>"; };
-		BC167DF61C5875CF00CF82F1 /* ZDAssetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDAssetCell.xib; sourceTree = "<group>"; };
-		BC167DF91C58766100CF82F1 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
-		BC167DFA1C58766100CF82F1 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
-		BC167DFC1C58766C00CF82F1 /* UIView+RZAutoLayoutHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RZAutoLayoutHelpers.h"; sourceTree = "<group>"; };
-		BC167DFD1C58766C00CF82F1 /* UIView+RZAutoLayoutHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RZAutoLayoutHelpers.m"; sourceTree = "<group>"; };
-		BC167E121C58A7F000CF82F1 /* ZDDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +96,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC1348F31C6093E200BEB91D /* ZDPhotoPickerClass */ = {
+			isa = PBXGroup;
+			children = (
+				BC1349061C60940D00BEB91D /* AutoLayout */,
+				BC1348F81C6093E200BEB91D /* ZDAssetCell.h */,
+				BC1348F91C6093E200BEB91D /* ZDAssetCell.m */,
+				BC1348FA1C6093E200BEB91D /* ZDAssetCell.xib */,
+				BC1348FB1C6093E200BEB91D /* ZDAssetModel.h */,
+				BC1348FC1C6093E200BEB91D /* ZDAssetModel.m */,
+				BC1348FD1C6093E200BEB91D /* ZDDefines.h */,
+				BC1348FE1C6093E200BEB91D /* ZDPhotoManager.h */,
+				BC1348FF1C6093E200BEB91D /* ZDPhotoManager.m */,
+			);
+			name = ZDPhotoPickerClass;
+			path = ../ZDPhotoPickerClass;
+			sourceTree = "<group>";
+		};
+		BC1349061C60940D00BEB91D /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BC1349071C60946800BEB91D /* UIView+AutoLayout.h */,
+				BC1349081C60946800BEB91D /* UIView+AutoLayout.m */,
+				BC1349091C60946800BEB91D /* UIView+RZAutoLayoutHelpers.h */,
+				BC13490A1C60946800BEB91D /* UIView+RZAutoLayoutHelpers.m */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
 		BC167DA51C586B7800CF82F1 = {
 			isa = PBXGroup;
 			children = (
-				BC167DE41C586BAF00CF82F1 /* ZDPhotoPickerClass */,
+				BC1348F31C6093E200BEB91D /* ZDPhotoPickerClass */,
 				BC167DB01C586B7800CF82F1 /* ZDPhotoPicker */,
 				BC167DCA1C586B7800CF82F1 /* ZDPhotoPickerTests */,
 				BC167DD51C586B7800CF82F1 /* ZDPhotoPickerUITests */,
@@ -157,25 +185,6 @@
 				BC167DD81C586B7800CF82F1 /* Info.plist */,
 			);
 			path = ZDPhotoPickerUITests;
-			sourceTree = "<group>";
-		};
-		BC167DE41C586BAF00CF82F1 /* ZDPhotoPickerClass */ = {
-			isa = PBXGroup;
-			children = (
-				BC167E121C58A7F000CF82F1 /* ZDDefines.h */,
-				BC167DE51C586BE100CF82F1 /* ZDPhotoManager.h */,
-				BC167DE61C586BE100CF82F1 /* ZDPhotoManager.m */,
-				BC167DF41C5875CF00CF82F1 /* ZDAssetCell.h */,
-				BC167DF51C5875CF00CF82F1 /* ZDAssetCell.m */,
-				BC167DF61C5875CF00CF82F1 /* ZDAssetCell.xib */,
-				BC167DF11C58756900CF82F1 /* ZDAssetModel.h */,
-				BC167DF21C58756900CF82F1 /* ZDAssetModel.m */,
-				BC167DFC1C58766C00CF82F1 /* UIView+RZAutoLayoutHelpers.h */,
-				BC167DFD1C58766C00CF82F1 /* UIView+RZAutoLayoutHelpers.m */,
-				BC167DF91C58766100CF82F1 /* UIView+AutoLayout.h */,
-				BC167DFA1C58766100CF82F1 /* UIView+AutoLayout.m */,
-			);
-			path = ZDPhotoPickerClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +292,7 @@
 			files = (
 				BC167DC11C586B7800CF82F1 /* LaunchScreen.storyboard in Resources */,
 				BC167DBE1C586B7800CF82F1 /* Assets.xcassets in Resources */,
-				BC167DF81C5875CF00CF82F1 /* ZDAssetCell.xib in Resources */,
+				BC1349031C6093E200BEB91D /* ZDAssetCell.xib in Resources */,
 				BC167DBC1C586B7800CF82F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,14 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC167DF71C5875CF00CF82F1 /* ZDAssetCell.m in Sources */,
-				BC167DFE1C58766C00CF82F1 /* UIView+RZAutoLayoutHelpers.m in Sources */,
+				BC1349021C6093E200BEB91D /* ZDAssetCell.m in Sources */,
+				BC13490C1C60946800BEB91D /* UIView+RZAutoLayoutHelpers.m in Sources */,
+				BC1349041C6093E200BEB91D /* ZDAssetModel.m in Sources */,
 				BC167DB91C586B7800CF82F1 /* ViewController.m in Sources */,
 				BC167DB61C586B7800CF82F1 /* AppDelegate.m in Sources */,
-				BC167DE71C586BE100CF82F1 /* ZDPhotoManager.m in Sources */,
+				BC1349051C6093E200BEB91D /* ZDPhotoManager.m in Sources */,
+				BC13490B1C60946800BEB91D /* UIView+AutoLayout.m in Sources */,
 				BC167DB31C586B7800CF82F1 /* main.m in Sources */,
-				BC167DFB1C58766100CF82F1 /* UIView+AutoLayout.m in Sources */,
-				BC167DF31C58756900CF82F1 /* ZDAssetModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +553,7 @@
 				BC167DDD1C586B7800CF82F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC167DDE1C586B7800CF82F1 /* Build configuration list for PBXNativeTarget "ZDPhotoPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +562,7 @@
 				BC167DE01C586B7800CF82F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC167DE11C586B7800CF82F1 /* Build configuration list for PBXNativeTarget "ZDPhotoPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +571,7 @@
 				BC167DE31C586B7800CF82F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
