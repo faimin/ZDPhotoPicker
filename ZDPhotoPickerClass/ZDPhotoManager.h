@@ -4,7 +4,7 @@
 //
 //  Created by 符现超 on 16/1/27.
 //  Copyright © 2016年 Zero.D.Bourne. All rights reserved.
-//
+//  https://developer.apple.com/library/ios/samplecode/UsingPhotosFramework/Introduction/Intro.html#//apple_ref/doc/uid/TP40014575
 /**
  *  PS: 大部分代码来自TZImagePickerController:
  *  https://github.com/banchichen/TZImagePickerController

@@ -38,6 +38,13 @@
 			remoteGlobalIDString = BC167DAD1C586B7800CF82F1;
 			remoteInfo = ZDPhotoPicker;
 		};
+		BC667B781C7C291F0041FD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC667B741C7C291F0041FD01 /* SamplePhotosApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7CF22CC1933ED8900E6E88E;
+			remoteInfo = SamplePhotosApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +76,7 @@
 		BC167DD21C586B7800CF82F1 /* ZDPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC167DD61C586B7800CF82F1 /* ZDPhotoPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPhotoPickerUITests.m; sourceTree = "<group>"; };
 		BC167DD81C586B7800CF82F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC667B741C7C291F0041FD01 /* SamplePhotosApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SamplePhotosApp.xcodeproj; path = ../ExampleappusingPhotosframework/SamplePhotosApp.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 		BC167DA51C586B7800CF82F1 = {
 			isa = PBXGroup;
 			children = (
+				BC667B741C7C291F0041FD01 /* SamplePhotosApp.xcodeproj */,
 				BC1348F31C6093E200BEB91D /* ZDPhotoPickerClass */,
 				BC167DB01C586B7800CF82F1 /* ZDPhotoPicker */,
 				BC167DCA1C586B7800CF82F1 /* ZDPhotoPickerTests */,
@@ -185,6 +194,14 @@
 				BC167DD81C586B7800CF82F1 /* Info.plist */,
 			);
 			path = ZDPhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+		BC667B751C7C291F0041FD01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC667B791C7C291F0041FD01 /* SamplePhotosApp.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +293,12 @@
 			mainGroup = BC167DA51C586B7800CF82F1;
 			productRefGroup = BC167DAF1C586B7800CF82F1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BC667B751C7C291F0041FD01 /* Products */;
+					ProjectRef = BC667B741C7C291F0041FD01 /* SamplePhotosApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BC167DAD1C586B7800CF82F1 /* ZDPhotoPicker */,
@@ -284,6 +307,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BC667B791C7C291F0041FD01 /* SamplePhotosApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SamplePhotosApp.app;
+			remoteRef = BC667B781C7C291F0041FD01 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BC167DAC1C586B7800CF82F1 /* Resources */ = {
